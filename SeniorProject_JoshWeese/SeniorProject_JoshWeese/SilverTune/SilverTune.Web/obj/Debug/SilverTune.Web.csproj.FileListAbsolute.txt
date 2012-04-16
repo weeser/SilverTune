@@ -1,0 +1,5 @@
+C:\Users\weeser\documents\visual studio 2010\Projects\SilverTune\SilverTune.Web\bin\SilverTune.Web.dll
+C:\Users\weeser\documents\visual studio 2010\Projects\SilverTune\SilverTune.Web\bin\SilverTune.Web.pdb
+C:\Users\weeser\documents\visual studio 2010\Projects\SilverTune\SilverTune.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\weeser\documents\visual studio 2010\Projects\SilverTune\SilverTune.Web\obj\Debug\SilverTune.Web.dll
+C:\Users\weeser\documents\visual studio 2010\Projects\SilverTune\SilverTune.Web\obj\Debug\SilverTune.Web.pdb

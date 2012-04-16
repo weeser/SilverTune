@@ -1,0 +1,27 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SilverTune" EntryPointType="SilverTune.App" RuntimeVersion="4.0.50826.0">
+  <Deployment.OutOfBrowserSettings>
+    <OutOfBrowserSettings ShortName="SilverTune Application" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+      <OutOfBrowserSettings.Blurb>SilverTune Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
+      <OutOfBrowserSettings.WindowSettings>
+        <WindowSettings Title="SilverTune Application" Height="600" Width="800" />
+      </OutOfBrowserSettings.WindowSettings>
+      <OutOfBrowserSettings.SecuritySettings>
+        <SecuritySettings ElevatedPermissions="Required" />
+      </OutOfBrowserSettings.SecuritySettings>
+      <OutOfBrowserSettings.Icons />
+    </OutOfBrowserSettings>
+  </Deployment.OutOfBrowserSettings>
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SilverTune" Source="SilverTune.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data" Source="System.Windows.Controls.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.DataVisualization.Toolkit" Source="System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Theming.RainierPurple" Source="System.Windows.Controls.Theming.RainierPurple.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Theming.Toolkit" Source="System.Windows.Controls.Theming.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Toolkit" Source="System.Windows.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Toolkit.Internals" Source="System.Windows.Controls.Toolkit.Internals.dll" />
+  </Deployment.Parts>
+</Deployment>
